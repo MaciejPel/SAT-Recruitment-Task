@@ -14,9 +14,9 @@ export const calculateDisselUsageForDistance = (req: Request, res: Response) => 
 	}
 
 	// cast query params into numbers
-	const distance: number = parseInt(req.query.distance as string);
-	const yearOfProduction: number = parseInt(req.query.yearOfProduction as string);
-	const fuelUsagePer100KM: number = parseInt(req.query.fuelUsagePer100KM as string);
+	const distance: number = Number(req.query.distance as string);
+	const yearOfProduction: number = Number(req.query.yearOfProduction as string);
+	const fuelUsagePer100KM: number = Number(req.query.fuelUsagePer100KM as string);
 
 	// check if any of query params aren't a natural number
 	if (
