@@ -13,7 +13,7 @@ NodeJS - latest, my version 16.13.1
 
 # Scripts
 
-- `npm run build` - compiles TypeScript code into JavaScript `dist` folder
+- `npm run build` - compiles TypeScript code into JavaScript `dist` folder, **Required after cloning repo & installing dependencies**
 - `npm run start` - runs previously compiled JavaScript code from `dist` folder
 - `npm run dev` - developer mode, allows to freely edit code without rerunning the server
 
